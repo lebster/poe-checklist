@@ -167,6 +167,7 @@ export default compose(
       keys: {
         name: SORT_STRATEGIES.ALPHABETIC,
         tier: SORT_STRATEGIES.NUMERIC,
+        region: SORT_STRATEGIES.ALPHABETIC,
         sextantCoverageIncludingSelf: SORT_STRATEGIES.NUMERIC,
         level: SORT_STRATEGIES.NUMERIC,
       },
