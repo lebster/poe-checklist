@@ -8,7 +8,9 @@
     "dev": "npm run start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "import:divination-cards": "node ./scripts/importers/divinationCards.js"
+    "import:divination-cards": "node ./scripts/importers/divinationCards.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^9.3.1",
