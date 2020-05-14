@@ -10,7 +10,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "import:divination-cards": "node ./scripts/importers/divinationCards.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "autoprefixer": "^9.3.1",
